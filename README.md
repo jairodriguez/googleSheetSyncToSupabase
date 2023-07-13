@@ -21,4 +21,4 @@ After processing a "changed" row, the script removes the "changed" flag from the
 
 ## Note
 
-This script uses the `onEdit` simple trigger from Google Apps Script, which means it will only run when a user manually changes a cell. It will not run when a cell's value changes due to a formula or due to an API call.
+This script uses the `onEdit` simple trigger from Google Apps Script, which means it will only run when a user manually changes a cell. It will not run when a cell's value changes due to a formula or due to an API call, however with the time trigger it will sync all changes even when made by an API call.
